@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { api } from "../../../services/api";
 import {useLocation, useNavigate} from'react-router-dom';
 import { toast } from "react-toastify";
-import {formatPrice} from '../../../utils/formatPrice'
+
 
 const schema = yup
   .object({
